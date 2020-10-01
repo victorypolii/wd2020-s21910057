@@ -1,0 +1,48 @@
+/*p{
+    color: navy;
+}
+.one{
+    color: orangered;
+}
+.two{
+    color: darkgreen;
+}
+.border{
+    border: darkgreen 5px dashed;
+}
+p.two {
+    font-family: 'Times New Roman', Times, serif;
+}*/
+div p{
+    color: navy;
+}
+div .two{
+    color: maroon;
+}
+#zero{
+    background: paleturquoise;
+}
+#zero-two{
+    font-style: italic;
+}
+a[href]{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+a[href*="google"]{
+    background-color: greenyellow;
+
+}
+
+h4:hover{
+    color: honeydew;
+    background-color: black;
+}
+p::selection{
+    color:yellow;
+    background-color: navy;
+}
+a::before{
+    content: "Link -";
+}
