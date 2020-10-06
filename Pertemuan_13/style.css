@@ -1,0 +1,12 @@
+img{
+    display: block;
+    background-color: cyan;
+    padding: 20px;
+    border: 10px solid navy;
+}
+.img2{
+    margin-left: 188px;
+}
+.img3{
+    margin-left: 376px;
+}
