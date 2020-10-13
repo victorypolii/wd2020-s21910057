@@ -1,0 +1,16 @@
+strong{
+    display: block;
+}
+div{
+    display: none;
+    margin: 20px;
+    padding: 20px;
+}
+span{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+h6{
+    visibility: hidden;
+}

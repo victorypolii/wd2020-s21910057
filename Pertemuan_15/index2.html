@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>CSS Position</title>
+        <style>
+            div{
+                margin: 0px;
+                padding: 0px;
+                /*display: inline-block;*/
+            }
+            div.satu{
+                background: navy;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 10px;
+            }
+            div.dua{
+                background: maroon;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 110px;
+            }
+            div.tiga{
+                background: darkgreen;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                left: 210px;
+            }
+            div.box{
+                background: black;
+                width: 150px;
+                height: 150px;
+                position: relative;
+            }
+            div.one{
+                background:yellow;
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                right: left 0px;
+            }
+            div.two{
+                background :red;
+                width: 10px;
+                height: 10px;
+                position: relative;
+                top: 40%;
+                left: 40%;
+            }
+            div.three{
+                background: turquoise;
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 50px;
+                left: 50px;
+            }
+            div.four{
+                background: lightgreen;
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                left: 100px;
+                top: 100px;
+            }
+            div.nav{
+                background: darkgrey;
+                width: 100%;
+                height: 5%;
+                position: fixed;
+                top: 5px;
+                left: 0;
+            }
+            div.sticky1{
+                background: chartreuse;
+                width: 100px;
+                height: 100px;
+                margin: 5px;
+            }
+            div.sticky{
+                background: sienna;
+                width: 100px;
+                height: 100px;
+                margin: 5px;
+                position: sticky;
+                top: 10px;
+                bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Position</h1>
+        <h3>Relative</h3>
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+        <h3>Absolute</h3>
+        <div class="box">
+            <div class="one">
+                <div class="two"></div>
+            </div>
+            <div class="three">
+                <div class="two"></div>
+            </div>
+            <div class="four">
+                <div class="two"></div>
+            </div>
+        </div>
+        <div class="nav">CSS POSITION FIX</div>
+        <h3>sticky</h3>
+        <div class="sticky"></div>
+        <div class="sticky1"></div>
+        <div class="sticky1"></div>
+    </body>
+</html>
