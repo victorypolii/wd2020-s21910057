@@ -1,0 +1,32 @@
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+img{
+    width: 10rem;
+}
+@media screen and (max-width: 507px){
+    h1{
+        font-size: 1rem;
+    }
+    p{
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 900px){
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+        letter-spacing: 0px;
+    }
+}
+@media screen and (max-width: 507px){
+    img{
+        display: block;
+    }
+}
