@@ -44,11 +44,8 @@
 //PROGRAM BMI JAVASCRIPT
 let massa=prompt("Masukkan Massa badan (kg) : ");
 let tinggi=prompt("Masukkan Tinggi badan (cm) : ");
-let tinggi2=tinggi/=100;
-let bmi=massa/(tinggi2*tinggi2);
-console.log(bmi);
-let kategori;
-if (bmi<=18.4) kategori="Kurus"
-else if (bmi>18.4&&bmi<=25) kategori="Normal" 
-else if (bmi>25) kategori="Gemuk" 
+tinggi/=100;
+let bmi=massa/(tinggi*tinggi);
+console.log("BMI anda adalah "+bmi.toFixed(2));
+let kategori=bmi>25? "GEMUK": bmi<=18?"KURUS":"NORMAL";
 console.log("Kategori Anda " + kategori);
